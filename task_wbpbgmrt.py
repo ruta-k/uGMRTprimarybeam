@@ -242,7 +242,8 @@ def _makePBList(msname='',pbprefix='',field='',spwlist=[],chanlist=[], imsize=[]
          elif (2.5<freq<5.0):# Band 3
              vp.setpbpoly(telescope ='GMRT',  usesymmetricbeam=True, coeff=np.array([1, -2.939e-3, 33.312e-7, -16.659e-10,   3.066e-13])) # frequencywise polynomial to be given here
          elif (5.5<freq<9.5): # Band 4
-             vp.setpbpoly(telescope ='GMRT',  usesymmetricbeam=True, coeff=np.array([1, -3.190e-3, 38.642e-7, -20.471e-10,   3.964e-13])) # frequencywise polynomial to be given here
+             #vp.setpbpoly(telescope ='GMRT',  usesymmetricbeam=True, coeff=np.array([1, -3.190e-3, 38.642e-7, -20.471e-10,   3.964e-13])) # frequencywise polynomial to be given here
+             vp.setpbpoly(telescope ='GMRT',  usesymmetricbeam=True, coeff=np.array([1, -3.4108297e-3, 51.9681333e-7, -44.463569e-10,   20.9821123e-13,-4.1919909e016])) # frequencywise polynomial to be given here
          elif (10.5<freq<15): # L-band or Band 5
              vp.setpbpoly(telescope ='GMRT',  usesymmetricbeam=True, coeff=np.array([1, -2.608e-3, 27.357e-7, -13.091e-10, 2.368e-13])) # frequencywise polynomial to be given here
 
