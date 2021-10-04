@@ -22,5 +22,6 @@ How to use the CASA task 'wbpbgmrt':
  - Please send your feedback or ask for help by writing to ruta@ncra.tifr.res.in.
 # This task is a modification of the CASA task "widebandpbcor".
 # Contributors to this modification: Ruta Kale, Biny Sebastian, D. V. Lal.
-# The uGMRT primary beam parameters are from the report by D. V Lal and J. N. Chengalur that was released on 01Dec2018.
+# The uGMRT primary beam parameters are from the report by D. V Lal and J. N. Chengalur that was released on 01Dec2018. The branch b4order10poly is a branch that includes 10th order polynomial for the Band-4 primary beam of the uGMRT provided by Katore and Lal 2021.
 # Date: 18 June 2019.
+# Date: 04 October 2021 ("Celebrating 20 years of the GMRT")
